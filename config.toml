@@ -1,5 +1,6 @@
 # The URL the site will be built for
-base_url = "https://breakbuild.games"
+# base_url = "https://breakbuild.games"
+base_url = "https://breakbuildgames.github.io/breakbuildgames_blog"
 title ="Break Build Games"
 description = "Devlog about game development in Rust and random rants"
 default_language = "en"
