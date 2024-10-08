@@ -1,0 +1,6 @@
+{% macro admonition(kind, title, body) %}
+
+<div class="admonition {{ kind | lower }} title"> {{ title  }} </div>
+<div class="admonition {{ kind | lower }}"> {{ body }}  </div>
+
+{% endmacro admonition %}

@@ -1,0 +1,236 @@
+# The URL the site will be built for
+base_url = "https://breakbuild.games"
+title ="Break Build Games"
+description = "Devlog about game development in Rust and random rants"
+default_language = "en"
+output_dir = "public"
+author = "kevin"
+generate_feeds = true
+compile_sass = true
+build_search_index = true
+
+#TODO: Wait for next Zola release, because of existing formatting bug 
+# with code blocks(line highlight)
+minify_html = true
+
+theme = "tabi"
+
+taxonomies = [
+    {name = "tags", feed = true},
+]
+
+[search]
+# Whether to include the title of the page/section in the index.
+include_title = true
+# Whether to include the description of the page/section in the index.
+include_description = true
+# Whether to include the path of the page/section in the index.
+include_path = true
+# Whether to include the rendered content of the page/section in the index.
+include_content = true
+# At which character to truncate the content to. Useful if you have a lot of pages and the index would
+# become too big to load on the site. Defaults to not being set.
+# truncate_content_length = 100
+# Wether to produce the search index as a javascript file or as a JSON file.
+# Accepted value "elasticlunr_javascript" or "elasticlunr_json".
+index_format = "elasticlunr_json"
+
+[markdown]
+external_links_target_blank = true
+highlight_code = true
+highlight_theme = "css"
+
+[extra]
+# Languages for your site.
+# Each should have a translation section above.
+# e.g. [languages.ca.translations]
+language_name.en = "English"
+
+# Remote repository for your Zola site.
+# Used for `show_remote_changes` and `show_remote_source` (see below).
+# Supports GitHub, GitLab, Gitea, and Codeberg.
+remote_repository_url = "https://github.com/BreakBuildGames/breakbuildgames_blog"
+# Set this to "auto" to try and auto-detect the platform based on the repository URL.
+# Accepted values are "github", "gitlab", "gitea", and "codeberg".
+remote_repository_git_platform = "auto"  # Defaults to "auto".
+# Branch in the repo hosting the Zola site.
+remote_repository_branch = "main"  # Defaults to "main".
+# Show a link to the commit history of updated posts, right next to the last updated date.
+show_remote_changes = true  # Defaults to true.
+# Show a link to the repository of the site, right next to the "Powered by Zola & tabi" text.
+show_remote_source = true  # Defaults to true.
+
+# Enable JavaScript theme toggler to allow users to switch between dark/light mode.
+# Also enables automatic switching based on user's OS-level theme settings.
+# If disabled, your site will only use the theme specified in the `default_theme` variable.
+theme_switcher = true
+
+# This setting determines the default theme ("light" or "dark").
+# If you wish to use only a dark or light theme, disable the `theme_switcher` above and set this variable.
+# If `theme_switcher` is enabled, this will be the theme that is visible to users who have JavaScript disabled.
+# Defaults to "light", if unset.
+default_theme = "dark"
+
+# Choose the colourscheme (skin) for the theme. Default is "teal".
+# Skin available: blue, lavender, mint, red, sakura, teal, monochrome, lowcontrast_orange, lowcontrast_peach, lowcontrast_pink, indigo_ingot, evangelion
+# See them live and learn how to create your own: https://welpo.github.io/tabi/blog/customise-tabi/#skins
+# WARNING! "lowcontrast" skins, while aesthetically pleasing, may not provide optimal
+# contrast (in light theme) for readability and might not be suitable for all users.
+# Furthermore, low contrasting elements will affect your Google Lighthouse rating.
+# All other skins have optimal contrast.
+skin = "catppuccin"
+
+# List additional stylesheets to load site-wide.
+# These stylesheets should be located in your site's `static` directory.
+# Example: stylesheets = ["extra1.css", "path/extra2.css"]
+# You can load a stylesheet for a single post by adding it to the [extra] section of the post's front matter, following this same format.
+stylesheets = ["admonitions.css"]
+
+# Add a "copy" button to codeblocks (loads ~700 bytes of JavaScript).
+copy_button = true
+
+# Adds backlinks to footnotes (loads ~500 bytes of JavaScripts).
+footnote_backlinks = true
+
+# Enable KaTeX for all posts.
+katex = false
+
+# Date format used when listing posts (main page, /blog section, tag posts list…)
+# Default is "6th July 2049" in English and "%d %B %Y" in other languages.
+long_date_format = "%d %B %Y"
+
+# Date format used for blog posts.
+# Default is "6th July 2049" in English and "%-d %B %Y" in other languages.
+short_date_format = ""
+
+# Custom separator used in title tag and posts metadata (between date, time to read, and tags).
+separator = "•"
+
+# Full path after the base URL required. So if you were to place it in "static" it would be "/favicon.ico"
+favicon = "img/favicon.ico"
+
+# Add an emoji here to use it as favicon.
+# Compatibility: https://caniuse.com/link-icon-svg
+favicon_emoji = ""
+
+# This header image is used for SEO. For example if you were to share an image via Messenger/Instagram/Twitter a preview picture is also presented
+headerImage = ""
+
+menu = [
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "tags", url = "tags", trailing_slash = true },
+]
+
+# The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
+feed_icon = true
+
+# Email address for footer's social section.
+# Protect against spambots:
+# 1. Use base64 for email (convert at https://www.base64encode.org/ or `printf 'your@email.com' | base64`).
+# 2. Or, set 'encode_plaintext_email' to true for auto-encoding (only protects on site, not in public repos).
+email = "YnJlYWtidWlsZGdhbWVzQGdtYWlsLmNvbQ=="  # base64 encoded version of "mail@example.com"
+# Decoding requires ~400 bytes of JavaScript. If JS is disabled, the email won't be displayed.
+encode_plaintext_email = true  # Setting is ignored if email is already encoded.
+
+# The icons available can be found in "social_icons" in the "static" folder.
+socials = [
+    { name = "github", url = "https://github.com/BreakBuildGames/", icon = "github" },
+    { name = "Ko-Fi", url = "https://ko-fi.com/breakbuildgames", icon = "kofi" }, 
+]
+
+# Enable a copyright notice for the footer, shown between socials and the "Powered by" text.
+# You can use $CURRENT_YEAR to automatically insert the current year.
+# $SEPARATOR will be replaced by the `separator` variable.
+# Markdown is supported (links, emphasis, etc).
+# copyright = "© $CURRENT_YEAR Your Name $SEPARATOR Unless otherwise noted, the content in this website is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license."
+
+# For multi-language sites, you can set a different copyright for each language.
+# If this is set to true, ensure you have a `copyright` translation for each language.
+translate_copyright = false
+
+# Custom security headers. What urls should your website be able to connect to?
+# You need to specify the CSP and the URLs associated with the directive.
+# Useful if you want to load remote content safely (embed YouTube videos, which needs frame-src, for example).
+# Default directive is self.
+# Default config, allows for https remote images and embedding YouTube and Vimeo content.
+# This configuration (along with the right webserver settings) gets an A+ in Mozilla's Observatory: https://observatory.mozilla.org
+allowed_domains = [
+    { directive = "font-src", domains = ["'self'", "data:" ] },
+    { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
+    { directive = "script-src", domains = ["'self'"] },
+    { directive = "style-src", domains = ["'self'", "giscus.app" ] },
+    { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com"] },
+]
+
+# Custom subset of characters for the header.
+# If set to true, the `static/custom_subset.css` file will be loaded first.
+# This avoids a flashing text issue in Firefox.
+# Please see https://welpo.github.io/tabi/blog/custom-font-subset/ to learn how to create this file.
+custom_subset = false
+
+# Quick navigation buttons.
+# Adds "go up" and "go to comments" buttons on the bottom right (hidden for mobile).
+# Can also be enabled on individual posts in the front matter's [extra].
+quick_navigation_buttons = true
+
+#[extra.analytics]
+#service = "umami"
+#id = "c904a717-02a8-4f41-a2c1-6b136d7de81d"
+#self_hosted_url = ""
+
+
+# giscus support for comments. https://giscus.app
+# Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup
+[extra.giscus]
+enabled_for_all_posts = false  # Enables giscus on all posts. It can be enabled on individual posts by setting `giscus = true` in the [extra] section of a post's front matter.
+automatic_loading = true  # If set to false, a "Load comments" button will be shown.
+repo = "breakbuildgames/breakbuildgames_blog"
+repo_id = "R_kgDOKHbYIA"  # Find this value in https://giscus.app/
+category = "General"
+category_id = "DIC_kwDOKHbYIM4CY8eo"  # Find this value in https://giscus.app/
+mapping = "slug"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages.
+strict_title_matching = 1  # 1 to enable, 0 to disable. https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-strict
+enable_reactions = 1  # 1 to enable, 0 to disable.
+comment_box_above_comments = true
+light_theme = "http://127.0.0.1:1111/giscus/light.css"
+dark_theme = "http://127.0.0.1:1111/giscus/dark.css"
+lang = ""  # Leave blank to match the page's language.
+lazy_loading = true
+
+# utterances support for comments. https://utteranc.es
+# Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup
+[extra.utterances]
+enabled_for_all_posts = false  # Enables utterances on all posts. It can be enabled on individual posts by setting `utterances = true` in the [extra] section of a post's front matter.
+automatic_loading = true  # If set to false, a "Load comments" button will be shown.
+repo = "yourGithubUsername/yourRepo"  # https://utteranc.es/#heading-repository
+issue_term = "slug"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages. https://utteranc.es/#heading-mapping
+label = "💬"  # https://utteranc.es/#heading-issue-label
+light_theme = "github-light"  # https://utteranc.es/#heading-theme
+dark_theme = "photon-dark"  # https://utteranc.es/#heading-theme
+lazy_loading = true
+
+# Hyvor Talk support for comments. https://talk.hyvor.com
+[extra.hyvortalk]
+enabled_for_all_posts = false  # Enables hyvortalk on all posts. It can be enabled on individual posts by setting `hyvortalk = true` in the [extra] section of a post's front matter.
+automatic_loading = true  # If set to false, a "Load comments" button will be shown.
+website_id = "1234"
+page_id_is_slug = true  # If true, it will use the post's filename (slug) as id; this is the only way to share comments between languages. If false, it will use the entire url as id.
+lang = ""  # Leave blank to match the page's language.
+page_author = ""  # Email (or base64 encoded email) of the author.
+lazy_loading = true
+
+# Isso support for comments. https://isso-comments.de/
+# You need to self-host the backend first: https://blog.phusion.nl/2018/08/16/isso-simple-self-hosted-commenting-system/
+# More info on some settings: https://isso-comments.de/docs/reference/client-config/
+[extra.isso]
+enabled_for_all_posts = false  # Enables Isso on all posts. It can be enabled on individual posts by setting `isso = true` in the [extra] section of a post's front matter.
+automatic_loading = true  # If set to false, a "Load comments" button will be shown.
+endpoint_url = ""  # Accepts relative paths like "/comments/" or "/isso/", as well as full urls like "https://example.com/comments/". Include the trailing slash.
+page_id_is_slug = true  # If true, it will use the post's filename (slug) as id; this is the only way to share comments between languages. If false, it will use the entire url as id.
+lang = ""  # Leave blank to match the page's language.
+max_comments_top = "inf"  # Number of top level comments to show by default. If some comments are not shown, an “X Hidden” link is shown.
+max_comments_nested = "5"  # Number of nested comments to show by default. If some comments are not shown, an “X Hidden” link is shown.
+avatar = true
+voting = true
+page_author_hashes = ""  # hash (or list of hashes) of the author.
+lazy_loading = true  # Loads when the comments are in the viewport (using the Intersection Observer API).

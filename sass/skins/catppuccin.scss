@@ -1,0 +1,483 @@
+@mixin latte() {
+    @include theme($latte);
+    @include code($latte);
+}
+
+@mixin mocha() {
+    @include theme($mocha);
+    @include code($mocha);
+}
+
+@mixin macchiato() {
+    @include theme($macchiato);
+    @include code($macchiato);
+}
+
+@mixin frappe() {
+    @include theme($frappe);
+    @include code($frappe);
+}
+
+$latte: (
+    "rosewater": #dc8a78,
+    "flamingo": #dd7878,
+    "pink": #ea76cb,
+    "mauve": #8839ef,
+    "red": #d20f39,
+    "maroon": #e64553,
+    "peach": #fe640b,
+    "yellow": #df8e1d,
+    "green": #40a02b,
+    "teal": #179299,
+    "sky": #04a5e5,
+    "sapphire": #209fb5,
+    "blue": #1e66f5,
+    "lavender": #7287fd,
+    "text": #4c4f69,
+    "subtext1": #5c5f77,
+    "subtext0": #6c6f85,
+    "overlay2": #7c7f93,
+    "overlay1": #8c8fa1,
+    "overlay0": #9ca0b0,
+    "surface2": #acb0be,
+    "surface1": #bcc0cc,
+    "surface0": #ccd0da,
+    "crust": #dce0e8,
+    "mantle": #e6e9ef,
+    "base": #eff1f5,
+);
+
+$mocha: (
+    "rosewater": #f5e0dc,
+    "flamingo": #f2cdcd,
+    "pink": #f5c2e7,
+    "mauve": #cba6f7,
+    "red": #f38ba8,
+    "maroon": #eba0ac,
+    "peach": #fab387,
+    "yellow": #f9e2af,
+    "green": #a6e3a1,
+    "teal": #94e2d5,
+    "sky": #89dceb,
+    "sapphire": #74c7ec,
+    "blue": #89b4fa,
+    "lavender": #b4befe,
+    "text": #cdd6f4,
+    "subtext1": #bac2de,
+    "subtext0": #a6adc8,
+    "overlay2": #9399b2,
+    "overlay1": #7f849c,
+    "overlay0": #6c7086,
+    "surface2": #585b70,
+    "surface1": #45475a,
+    "surface0": #313244,
+    "base": #1e1e2e,
+    "mantle": #181825,
+    "crust": #11111b,
+);
+
+$macchiato: (
+  "rosewater": #f4dbd6,
+    "flamingo": #f0c6c6,
+    "pink": #f5bde6,
+    "mauve": #c6a0f6,
+    "red": #ed8796,
+    "maroon": #ee99a0,
+    "peach": #f5a97f,
+    "yellow": #eed49f,
+    "green": #a6da95,
+    "teal": #8bd5ca,
+    "sky": #91d7e3,
+    "sapphire": #7dc4e4,
+    "blue": #8aadf4,
+    "lavender": #b7bdf8,
+    "text": #cad3f5,
+    "subtext1": #b8c0e0,
+    "subtext0": #a5adcb,
+    "overlay2": #939ab7,
+    "overlay1": #8087a2,
+    "overlay0": #6e738d,
+    "surface2": #5b6078,
+    "surface1": #494d64,
+    "surface0": #363a4f,
+    "base": #24273a,
+    "mantle": #1e2030,
+    "crust": #181926,
+);
+
+$frappe: (
+ "rosewater": #f2d5cf,
+    "flamingo": #eebebe,
+    "pink": #f4b8e4,
+    "mauve": #ca9ee6,
+    "red": #e78284,
+    "maroon": #ea999c,
+    "peach": #ef9f76,
+    "yellow": #e5c890,
+    "green": #a6d189,
+    "teal": #81c8be,
+    "sky": #99d1db,
+    "sapphire": #85c1dc,
+    "blue": #8caaee,
+    "lavender": #babbf1,
+    "text": #c6d0f5,
+    "subtext1": #b5bfe2,
+    "subtext0": #a5adce,
+    "overlay2": #949cbb,
+    "overlay1": #838ba7,
+    "overlay0": #737994,
+    "surface2": #626880,
+    "surface1": #51576d,
+    "surface0": #414559,
+    "base": #303446,
+    "mantle": #292c3c,
+    "crust": #232634,
+);
+
+
+@mixin theme($theme) {
+    --background-color: #{map-get($theme, "base")};
+    --bg-0: #{map-get($theme, "mantle")};              
+    --bg-1: #{map-get($theme, "crust")};
+    --bg-2: #{map-get($theme, "overlay2")};
+    --bg-3: #{map-get($theme, "surface0")};
+    --hover-color: #{map-get($theme, "base")};
+    --primary-color: #{map-get($theme, "rosewater")};
+    --divider-color: #{map-get($theme, "overlay0")};
+    --text-color: #{map-get($theme, "text")};
+    --text-color-high-contrast: #{map-get($theme, "yellow")};
+    --codeblock-bg: #{map-get($theme, "crust")};
+    --codeblock-highlight: #{map-get($theme, "overlay2")}40;
+    --red: #{map-get($theme, "red")};
+    --lavender: #{map-get($theme, "lavender")};
+    --flamingo: #{map-get($theme, "flamingo")};
+    --rosewater: #{map-get($theme, "rosewater")};
+    --teal: #{map-get($theme, "teal")};
+    --green: #{map-get($theme, "green")};
+    --mauve: #{map-get($theme, "mauve")};
+    --sky: #{map-get($theme, "sky")};
+    --sapphire: #{map-get($theme, "sapphire")};
+    --maroon: #{map-get($theme, "maroon")};
+}
+
+
+@mixin code($theme) {
+    .z-code {
+        color: #{map-get($theme, "text")};
+        background-color: #{map-get($theme, "base")};
+        border: 0.15rem solid;
+        border-top: none;
+        border-color: #{map-get($theme, "rosewater")};
+    }
+
+    .z-meta.z-semantic-token {
+        background-color: #000001;
+    }
+    .z-comment {
+        color: #{map-get($theme, "overlay0")};
+        font-style: italic;
+    }
+    .z-string {
+        color: #{map-get($theme, "green")};
+    }
+    .z-string.z-regexp {
+        color: #{map-get($theme, "peach")};
+    }
+    .z-constant.z-numeric {
+        color: #{map-get($theme, "peach")};
+    }
+    .z-constant.z-language.z-boolean {
+        color: #{map-get($theme, "peach")};
+        font-weight: bold;
+        font-style: italic;
+    }
+    .z-constant.z-language {
+        color: #{map-get($theme, "lavender")};
+        font-style: italic;
+    }
+    .z-support.z-function.z-builtin {
+        color: #{map-get($theme, "peach")};
+        font-style: italic;
+    }
+    .z-variable.z-other.z-constant {
+        color: #{map-get($theme, "peach")};
+    }
+    .z-variable {
+    }
+    .z-keyword {
+        color: #{map-get($theme, "red")};
+        font-style: italic;
+    }
+    .z-keyword.z-control.z-loop, .z-keyword.z-control.z-conditional, .z-keyword.z-control.z-c++ {
+        color: #{map-get($theme, "mauve")};
+        font-weight: bold;
+    }
+    .z-keyword.z-control.z-return, .z-keyword.z-control.z-flow.z-return {
+        color: #{map-get($theme, "pink")};
+        font-weight: bold;
+    }
+    .z-support.z-type.z-exception {
+        color: #{map-get($theme, "peach")};
+        font-style: italic;
+    }
+    .z-keyword.z-operator, .z-punctuation.z-accessor {
+        color: #{map-get($theme, "sky")};
+        font-weight: bold;
+    }
+    .z-punctuation.z-separator {
+        color: #{map-get($theme, "teal")};
+    }
+    .z-punctuation.z-terminator {
+        color: #{map-get($theme, "teal")};
+    }
+    .z-punctuation.z-section {
+        color: #{map-get($theme, "overlay2")};
+    }
+    .z-keyword.z-control.z-import.z-include {
+        color: #{map-get($theme, "teal")};
+        font-style: italic;
+    }
+    .z-storage {
+        color: #{map-get($theme, "red")};
+    }
+    .z-storage.z-type {
+        color: #{map-get($theme, "yellow")};
+        font-style: italic;
+    }
+    .z-storage.z-modifier {
+        color: #{map-get($theme, "red")};
+    }
+    .z-entity.z-name.z-namespace, .z-meta.z-path {
+        color: #{map-get($theme, "rosewater")};
+        font-style: italic;
+    }
+    .z-storage.z-type.z-class {
+        color: #{map-get($theme, "rosewater")};
+        font-style: italic;
+    }
+    .z-entity.z-name.z-label {
+        color: #{map-get($theme, "blue")};
+    }
+    .z-keyword.z-declaration.z-class {
+        color: #{map-get($theme, "red")};
+        font-style: italic;
+    }
+    .z-entity.z-name.z-class, .z-meta.z-toc-list.z-full-identifier {
+        color: #{map-get($theme, "sky")};
+    }
+    .z-entity.z-other.z-inherited-class {
+        color: #{map-get($theme, "sky")};
+        font-style: italic;
+    }
+    .z-entity.z-name.z-function, .z-variable.z-function {
+        color: #{map-get($theme, "blue")};
+        font-style: italic;
+    }
+    .z-entity.z-name.z-function.z-preprocessor {
+        color: #{map-get($theme, "red")};
+    }
+    .z-keyword.z-control.z-import {
+        color: #{map-get($theme, "red")};
+    }
+    .z-entity.z-name.z-function.z-constructor, .z-entity.z-name.z-function.z-destructor {
+        color: #{map-get($theme, "lavender")};
+    }
+    .z-variable.z-parameter.z-function {
+        color: #{map-get($theme, "rosewater")};
+        font-style: italic;
+    }
+    .z-keyword.z-declaration.z-function {
+        color: #{map-get($theme, "maroon")};
+        font-style: italic;
+    }
+    .z-support.z-function {
+        color: #{map-get($theme, "sky")};
+    }
+    .z-support.z-constant {
+        color: #{map-get($theme, "blue")};
+    }
+    .z-support.z-type, .z-support.z-class {
+        color: #{map-get($theme, "blue")};
+        font-style: italic;
+    }
+    .z-support.z-other.z-variable {
+    }
+    .z-variable.z-function {
+        color: #{map-get($theme, "blue")};
+        font-style: italic;
+    }
+    .z-variable.z-parameter {
+        color: #{map-get($theme, "rosewater")};
+        font-style: italic;
+    }
+    .z-variable.z-other {
+        color: #{map-get($theme, "text")};
+        font-style: italic;
+    }
+    .z-variable.z-other.z-member {
+        color: #{map-get($theme, "rosewater")};
+    }
+    .z-variable.z-language {
+        color: #{map-get($theme, "teal")};
+    }
+    .z-entity.z-name.z-tag {
+        color: #{map-get($theme, "peach")};
+    }
+    .z-entity.z-other.z-attribute-name {
+        color: #{map-get($theme, "mauve")};
+        font-style: italic;
+    }
+    .z-punctuation.z-definition.z-tag {
+        color: #{map-get($theme, "maroon")};
+    }
+    .z-markup.z-underline.z-link.z-markdown {
+        color: #{map-get($theme, "rosewater")};
+        font-style: underline;
+        font-style: italic;
+    }
+    .z-comment.z-block.z-markdown, .z-meta.z-code-fence, .z-markup.z-raw.z-code-fence, .z-markup.z-raw.z-inline {
+        color: #{map-get($theme, "teal")};
+        font-style: italic;
+    }
+    .z-punctuation.z-definition.z-heading, .z-entity.z-name.z-section {
+        color: #{map-get($theme, "blue")};
+        font-weight: bold;
+    }
+    .z-markup.z-italic {
+        color: #{map-get($theme, "maroon")};
+        font-style: italic;
+    }
+    .z-markup.z-bold {
+        color: #{map-get($theme, "maroon")};
+        font-weight: bold;
+    }
+    .z-constant.z-character.z-escape {
+        color: #{map-get($theme, "pink")};
+    }
+    .z-source.z-shell.z-bash .z-meta.z-function.z-shell .z-meta.z-compound.z-shell .z-meta.z-function-call.z-identifier.z-shell {
+        color: #{map-get($theme, "pink")};
+    }
+    .z-variable.z-language.z-shell {
+        color: #{map-get($theme, "red")};
+        font-style: italic;
+    }
+    .z-source.z-lua .z-meta.z-function.z-lua .z-meta.z-block.z-lua .z-meta.z-mapping.z-value.z-lua .z-meta.z-mapping.z-key.z-lua .z-string.z-unquoted.z-key.z-lua {
+        color: #{map-get($theme, "lavender")};
+        font-style: italic;
+    }
+    .z-source.z-lua .z-meta.z-function.z-lua .z-meta.z-block.z-lua .z-meta.z-mapping.z-key.z-lua .z-string.z-unquoted.z-key.z-lua {
+        color: #{map-get($theme, "flamingo")};
+    }
+    .z-entity.z-name.z-constant.z-java {
+        color: #{map-get($theme, "teal")};
+    }
+    .z-support.z-type.z-property-name.z-css {
+        color: #{map-get($theme, "flamingo")};
+        font-style: italic;
+    }
+    .z-support.z-constant.z-property-value.z-css {
+        color: #{map-get($theme, "text")};
+    }
+    .z-constant.z-numeric.z-suffix.z-css, .z-keyword.z-other.z-unit.z-css {
+        color: #{map-get($theme, "teal")};
+        font-style: italic;
+    }
+    .z-variable.z-other.z-custom-property.z-name.z-css, .z-support.z-type.z-custom-property.z-name.z-css, .z-punctuation.z-definition.z-custom-property.z-css {
+        color: #{map-get($theme, "teal")};
+    }
+    .z-entity.z-name.z-tag.z-css {
+        color: #{map-get($theme, "lavender")};
+    }
+    .z-variable.z-other.z-sass {
+        color: #{map-get($theme, "teal")};
+    }
+    .z-invalid {
+        color: #{map-get($theme, "text")};
+        background-color: #{map-get($theme, "red")};
+    }
+    .z-invalid.z-deprecated {
+        color: #{map-get($theme, "text")};
+        background-color: #{map-get($theme, "mauve")};
+    }
+    .z-meta.z-diff, .z-meta.z-diff.z-header {
+        color: #{map-get($theme, "overlay0")};
+    }
+    .z-markup.z-deleted {
+        color: #{map-get($theme, "red")};
+    }
+    .z-markup.z-inserted {
+        color: #{map-get($theme, "green")};
+    }
+    .z-markup.z-changed {
+        color: #{map-get($theme, "yellow")};
+    }
+    .z-message.z-error {
+        color: #{map-get($theme, "red")};
+    }
+}
+
+
+/* latin-ext */
+@font-face {
+  font-family: 'Recursive';
+  src: local('Recursive'),
+       url('/recursive.ttf') format('truetype');
+  font-display: swap;
+}
+
+@mixin theme-variables($theme) {
+  @if $theme == 'light' {
+    @include latte;
+  }
+  @else if $theme == 'dark' {
+      @include mocha;
+  }
+}
+
+:root {
+    --sans-serif-font: 'Recursive', sans-serif;
+    --serif-font: 'Recursive', serif;
+    --code-font: 'Recursive', monospace;
+
+    font-family: var(--sans-serif-font);
+    font-feature-settings: "liga" 1, "dlig" 1;
+
+    @include theme-variables('light');
+}
+
+[data-theme='dark'] {
+    @include theme-variables('dark');
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) {
+        @include theme-variables('dark');
+    }
+}
+
+
+header {
+    font-family: var(--sans-serif-font);
+    font-size: 1.2em;
+}
+
+pre {
+    code {
+        font-size: 0.9rem; 
+    }
+}
+
+.centered {
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: none;
+    aspect-ratio: 16/9;
+    width: 100vmin;
+    max-width: 90%;
+}
+
+figure {
+    overflow-x: scroll;
+}
+
