@@ -5,7 +5,7 @@ YouTube as a game developer feels like a trap. \
 Is it worth it for me, or just a waste of time?\
 """
 date = 2024-10-30
-draft = true
+draft = false
 
 [taxonomies]
 tags = ["Business", "Blog"]
