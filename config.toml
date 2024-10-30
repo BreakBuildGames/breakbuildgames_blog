@@ -1,8 +1,7 @@
 # The URL the site will be built for
-# base_url = "https://breakbuild.games"
-base_url = "https://breakbuildgames.github.io/breakbuildgames_blog"
+base_url = "https://breakbuild.games"
 title ="Break Build Games"
-description = "Devlog about game development in Rust and random rants"
+description = "A blog about game development in Rust and random rants"
 default_language = "en"
 output_dir = "public"
 author = "kevin"
@@ -10,8 +9,6 @@ generate_feeds = true
 compile_sass = true
 build_search_index = true
 
-#TODO: Wait for next Zola release, because of existing formatting bug 
-# with code blocks(line highlight)
 minify_html = true
 
 theme = "tabi"
@@ -119,6 +116,7 @@ headerImage = ""
 
 menu = [
     { name = "blog", url = "blog", trailing_slash = true },
+    { name = "projects", url = "projects", trailing_slash = true },
     { name = "tags", url = "tags", trailing_slash = true },
 ]
 

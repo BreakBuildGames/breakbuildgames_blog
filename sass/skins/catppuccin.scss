@@ -147,7 +147,8 @@ $frappe: (
     --text-color: #{map-get($theme, "text")};
     --text-color-high-contrast: #{map-get($theme, "yellow")};
     --codeblock-bg: #{map-get($theme, "crust")};
-    --codeblock-highlight: #{map-get($theme, "overlay2")}40;
+    --codeblock-highlight: #{map-get($theme, "overlay2")};
+    --meta-color: #{map-get($theme, "subtext0")};
     --red: #{map-get($theme, "red")};
     --lavender: #{map-get($theme, "lavender")};
     --flamingo: #{map-get($theme, "flamingo")};
