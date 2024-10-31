@@ -157,7 +157,7 @@ allowed_domains = [
     { directive = "font-src", domains = ["'self'", "data:" ] },
     { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
     { directive = "script-src", domains = ["'self'", "giscus.app", "analytics.eu.umami.is"] },
-    { directive = "style-src", domains = ["'self'", "giscus.app", "giscus.catppuccin.com" ] },
+    { directive = "style-src", domains = ["'self'", "giscus.app" ] },
     { directive = "frame-src", domains = ["player.vimeo.com", "youtube-nocookie.com"] },
 ]
 
@@ -191,8 +191,8 @@ mapping = "title"  # Available: pathname; url; title; slug. "slug" will use the 
 strict_title_matching = 1  # 1 to enable, 0 to disable. https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-strict
 enable_reactions = 1  # 1 to enable, 0 to disable.
 comment_box_above_comments = true
-light_theme = "https://giscus.catppuccin.com/themes/latte.css"
-dark_theme = "https://giscus.catppuccin.com/themes/mocha.css"
+light_theme = "https://breakbuild.games/skins/giscus-latte.css"
+dark_theme = "https://breakbuild.games/skins/giscus-mocha.css"
 lang = ""  # Leave blank to match the page's language.
 lazy_loading = true
 
