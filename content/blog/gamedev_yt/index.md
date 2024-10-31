@@ -12,6 +12,7 @@ tags = ["Business", "Blog"]
 
 [extra]
 toc = false
+giscus = true
 +++
 
 After clocking the 17th hour of working on my first YouTube video, I decided to
