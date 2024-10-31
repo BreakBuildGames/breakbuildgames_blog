@@ -154,11 +154,6 @@ weeks](https://sullygnome.com/channel/genusnymphicus/365), I realized that I
 still occasionally took a peek in a moment of weakness. YouTube gets even more
 in-your-face with the metrics, and places them all over the creator dashboard.
 
-This blog doesn't have any analytics for this reason. Analytics help with
-creating an actual commercial product, because views and behavior matter, but
-for a blog that I just create for fun, the can turn the "fun" quickly into
-"side business".
-
 ### Immutability Of Videos
 
 Once you upload a video, you can't change it anymore. Well, in theory you could
@@ -181,13 +176,13 @@ Alternatives to YouTube, that can mitigate some of the disadvantages, exist.
 
 ### Streaming
 
-I already briefly mentioned streaming. While it doesn't scratch the creative itch,
-it also doesn't take any extra time to do. When I streamed earlier this year, I
-did while programming on my game. It didn't take long to have my
-first regulars, with whom I talked about our shared interests.
-Whenever I got a new follower, I used that opportunity to talk about their
-projects. Unfortunately, I had to stop streaming before it got any traction due
-to personal issues.
+I already briefly mentioned streaming. While it doesn't scratch the creative
+itch, it also doesn't take any extra time to do. When I streamed earlier this
+year, I did it while programming on my game. It didn't take long to have my
+first regulars, with whom I talked about our shared interests. Whenever I got a
+new follower, I used that opportunity to ask them about their projects, which
+often resulted in some nice conversations. Unfortunately, I had to stop
+streaming before it got any traction due to personal issues.
 
 The option to return to streaming has opened up again, but currently, I feel not
 sure anymore. Getting into *the zone* seems impossible while streaming. Talking
@@ -211,7 +206,7 @@ Honestly, blogging didn't cross my mind at all at first. Not sure why, but
 blogging as a whole seem not nearly as popular anymore, compared to 10-20 years
 ago.
 
-When I [r/NewTubers](https://www.reddit.com/r/NewTubers/), to read
+When I visited [r/NewTubers](https://www.reddit.com/r/NewTubers/), to read
 up on the whole How-To YouTube stuff, one post in particular stood out to me:
 [YouTube isn't the only
 way](https://www.reddit.com/r/NewTubers/comments/1eqnxdm/youtube_isnt_the_only_way/),
