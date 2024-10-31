@@ -182,17 +182,17 @@ id = "c904a717-02a8-4f41-a2c1-6b136d7de81d"
 # Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup
 [extra.giscus]
 enabled_for_all_posts = false  # Enables giscus on all posts. It can be enabled on individual posts by setting `giscus = true` in the [extra] section of a post's front matter.
-automatic_loading = true  # If set to false, a "Load comments" button will be shown.
+automatic_loading = false  # If set to false, a "Load comments" button will be shown.
 repo = "breakbuildgames/breakbuildgames_blog"
-repo_id = "R_kgDOKHbYIA"  # Find this value in https://giscus.app/
-category = "General"
-category_id = "DIC_kwDOKHbYIM4CY8eo"  # Find this value in https://giscus.app/
-mapping = "slug"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages.
+repo_id = "R_kgDOKMYhlw"  # Find this value in https://giscus.app/
+category = "Blog Posts"
+category_id = "DIC_kwDOKMYhl84Cj2hm"  # Find this value in https://giscus.app/
+mapping = "title"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages.
 strict_title_matching = 1  # 1 to enable, 0 to disable. https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-strict
 enable_reactions = 1  # 1 to enable, 0 to disable.
 comment_box_above_comments = true
-light_theme = "http://127.0.0.1:1111/giscus/light.css"
-dark_theme = "http://127.0.0.1:1111/giscus/dark.css"
+light_theme = "catppuccin_latte"
+dark_theme = "catppuccin_mocha"
 lang = ""  # Leave blank to match the page's language.
 lazy_loading = true
 
