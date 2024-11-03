@@ -5,6 +5,7 @@ YouTube as a game developer feels like a trap. \
 Is it worth it for me, or just a waste of time?\
 """
 date = 2024-10-30
+updated = 2024-11-03
 draft = false
 
 [taxonomies]
