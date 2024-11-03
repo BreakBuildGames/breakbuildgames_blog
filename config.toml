@@ -157,7 +157,7 @@ allowed_domains = [
     { directive = "font-src", domains = ["'self'", "data:" ] },
     { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
     { directive = "script-src", domains = ["'self'", "giscus.app", "analytics.eu.umami.is"] },
-    { directive = "style-src", domains = ["'self'", "giscus.app" ] },
+    { directive = "style-src", domains = ["'self'"] },
     { directive = "frame-src", domains = ["player.vimeo.com", "youtube-nocookie.com"] },
 ]
 
@@ -187,9 +187,9 @@ repo = "breakbuildgames/breakbuildgames_blog"
 repo_id = "R_kgDOKMYhlw"  # Find this value in https://giscus.app/
 category = "Blog Posts"
 category_id = "DIC_kwDOKMYhl84Cj2hm"  # Find this value in https://giscus.app/
-mapping = "title"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages.
+mapping = "slug"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages.
 strict_title_matching = 1  # 1 to enable, 0 to disable. https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-strict
-enable_reactions = 1  # 1 to enable, 0 to disable.
+enable_reactions = 0  # 1 to enable, 0 to disable.
 comment_box_above_comments = true
 light_theme = "https://breakbuild.games/skins/giscus-latte.css"
 dark_theme = "https://breakbuild.games/skins/giscus-mocha.css"
