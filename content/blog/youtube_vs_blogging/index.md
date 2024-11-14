@@ -6,7 +6,7 @@ Is it worth it for me, or just a waste of time?\
 """
 date = 2024-10-30
 updated = 2024-11-03
-draft = false
+draft = true
 
 [taxonomies]
 tags = ["Business", "Blog"]
@@ -200,12 +200,11 @@ and routine and familiarity might avoid this somewhat.
 
 One potential solution could involve limiting streaming time and completing the
 majority of the work off-stream, but I don't think I would gain anything this
-way, over just creating videos.
+way, over just creating videos. 
 
 ### Blogging
 
-Honestly, blogging didn't cross my mind at all at first. Not sure why, but
-blogging as a whole seem not nearly as popular anymore, compared to 10-20 years
+Honestly, blogging didn't cross my mind at all at first. Blogging as a whole seem not nearly as popular anymore, compared to 10-20 years
 ago.
 
 When I visited [r/NewTubers](https://www.reddit.com/r/NewTubers/), to read
