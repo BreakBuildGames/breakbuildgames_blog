@@ -12,9 +12,9 @@ watch TARGET:
    watchexec -w {{TARGET}} just check {{TARGET}} 
 
 check TARGET:
-    lychee {{TARGET}} --format raw --no-progress
     vale --glob='*.md' {{TARGET}}
     mdl -i -r ~MD002 {{TARGET}} 
+    lychee {{TARGET}} --format raw --no-progress
 
 new_blog TARGET: 
     mkdir './content/blog/{{TARGET}}'
