@@ -156,7 +156,7 @@ translate_copyright = false
 allowed_domains = [
     { directive = "font-src", domains = ["'self'", "data:" ] },
     { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
-    { directive = "script-src", domains = ["'self'", "giscus.app", "analytics.eu.umami.is"] },
+    { directive = "script-src", domains = ["'self'", "giscus.app"] },
     { directive = "style-src", domains = ["'self'"] },
     { directive = "frame-src", domains = ["player.vimeo.com", "youtube-nocookie.com"] },
 ]
@@ -173,8 +173,8 @@ custom_subset = false
 quick_navigation_buttons = true
 
 [extra.analytics]
-service = "umami"
-id = "c904a717-02a8-4f41-a2c1-6b136d7de81d"
+# service = "umami"
+# id = "c904a717-02a8-4f41-a2c1-6b136d7de81d"
 #self_hosted_url = ""
 
 
