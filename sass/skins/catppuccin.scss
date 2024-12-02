@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Recursive';
+  src: url('./recursive.woff2') format('woff2'),
+       url('./recursive.woff') format('woff'),
+       url('./recursive.ttf') format('truetype');
+  font-display: swap;
+}
+
 @mixin latte() {
     @include theme($latte);
     @include code($latte);
@@ -418,13 +426,6 @@ $frappe: (
 }
 
 
-/* latin-ext */
-@font-face {
-  font-family: 'Recursive';
-  src: local('Recursive'),
-       url('./recursive.ttf') format('truetype');
-  font-display: swap;
-}
 
 @mixin theme-variables($theme) {
   @if $theme == 'light' {
