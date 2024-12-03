@@ -17,6 +17,7 @@ taxonomies = [
     {name = "tags", feed = true},
 ]
 
+
 [search]
 # Whether to include the title of the page/section in the index.
 include_title = true
@@ -37,12 +38,15 @@ index_format = "elasticlunr_json"
 external_links_target_blank = true
 highlight_code = true
 highlight_theme = "css"
+footnote_backlinks = true
 
 [extra]
 # Languages for your site.
 # Each should have a translation section above.
 # e.g. [languages.ca.translations]
 language_name.en = "English"
+
+post_listing_date = "both"
 
 # Remote repository for your Zola site.
 # Used for `show_remote_changes` and `show_remote_source` (see below).
@@ -86,9 +90,6 @@ stylesheets = ["admonitions.css"]
 
 # Add a "copy" button to codeblocks (loads ~700 bytes of JavaScript).
 copy_button = true
-
-# Adds backlinks to footnotes (loads ~500 bytes of JavaScripts).
-footnote_backlinks = true
 
 # Enable KaTeX for all posts.
 katex = false
