@@ -157,7 +157,7 @@ allowed_domains = [
     { directive = "font-src", domains = ["'self'", "data:" ] },
     { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
     { directive = "script-src", domains = ["'self'", "'unsafe-eval' giscus.app"] },
-    { directive = "style-src", domains = ["'self'"] },
+    { directive = "style-src", domains = ["'self'", "giscus.app"] },
     { directive = "frame-src", domains = ["player.vimeo.com", "youtube-nocookie.com"] },
 ]
 
