@@ -73,6 +73,8 @@ This realization comes with a liberation: If I don't need views, I don't have to
 please the almighty, ever-changing algorithm. I can focus solely on the content,
 without any padding for mid-roll ads, spending dozens of hours on overly edited
 videos to increase retention, resorting to clickbait or selling out to sponsors.
+I can also talk about whatever I want, without having to appeal to a broad
+audience.
 
 ### Doing YouTube As A Hobby
 
@@ -285,7 +287,7 @@ I mentioned that a large follower count does not matter to me, but writing posts
 that no one will read, nullifies some of the advantages. A blog requires some
 extra effort to bring new readers to it, for example by using other social
 media, including YouTube, which I might look into for some future quality or
-milestone posts.
+milestone posts, for example, a post mortem for my games.
 
 ## Conclusion
 
@@ -293,3 +295,4 @@ Turns out that no compelling reasons push me to use YouTube, as a simple blog
 can achieve the same goals, while offering some advantages. Owning the platform
 fully, avoiding the trap of status-seeking, and maintaining complete flexibility
 and independence, provide strong incentives.
+
