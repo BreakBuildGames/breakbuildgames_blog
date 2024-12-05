@@ -5,7 +5,7 @@ YouTube as a game developer feels like a trap. \
 Is it worth it for me, or just a waste of time?\
 """
 date = 2024-10-30
-updated = 2024-12-02
+updated = 2024-12-05
 draft = false
 
 [taxonomies]
@@ -67,7 +67,11 @@ At least for now, it makes more sense to make my game as good as possible, to
 increase the odds of proper influencers picking it up. Even if I could magically
 pull off a channel that gets one million views on their devlogs, this view count
 should only amount to a fraction of the total views among all other influencers
-in the best case. 
+in the best case. Getting a channel with hundreds of thousands of subscribers to
+showcase my game feels far easier than building a channel with a hundred
+thousand subscribers myself. Although the audience of my own channel might
+display greater loyalty and convert better, one big influencer picking up my
+game could create a snowball effect, leading to even more exposure.
 
 This realization comes with a liberation: If I don't need views, I don't have to
 please the almighty, ever-changing algorithm. I can focus solely on the content,
