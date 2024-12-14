@@ -174,8 +174,8 @@ custom_subset = false
 quick_navigation_buttons = true
 
 [extra.analytics]
-# service = "umami"
-# id = "c904a717-02a8-4f41-a2c1-6b136d7de81d"
+service = "umami"
+id = "c904a717-02a8-4f41-a2c1-6b136d7de81d"
 #self_hosted_url = ""
 
 
