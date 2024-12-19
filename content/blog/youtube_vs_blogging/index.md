@@ -5,7 +5,7 @@ YouTube as a game developer feels like a trap. \
 Is it worth it for me, or just a waste of time?\
 """
 date = 2024-10-30
-updated = 2024-12-05
+updated = 2024-12-19
 draft = false
 
 [taxonomies]
@@ -19,7 +19,7 @@ giscus = true
 After clocking the 17th hour of working on my first YouTube video, I decided to
 take a step back and began to question its value.
 
-I want to talk about my thoughts about YouTube and content creation in general,
+I want to talk about my thoughts on YouTube and content creation in general,
 exploring my reasons for doing it in the first place, and why I ultimately
 settled on blogging.
 
@@ -29,7 +29,7 @@ As a game developer, YouTube fascinates me.
 
 It could become a career in itself, just a hobby for fun, a marketing device to
 sell a product or service, a self-improvement or feedback tool, a plain video
-storage and sharing platform, a social medium and networking tool or a
+storage and sharing platform, a social medium and networking tool, or a
 combination of these.
 
 First, I need to understand what I even want to get out of a YouTube channel,
@@ -38,13 +38,14 @@ and how much I want to put in. This drives all the other decisions.
 Right away, I want to state that I don't want to pursue it for any monetary or
 marketing reasons.
 
-There seems to exist some sort of common misconception, that devlogs would only
+There seems to exist some sort of common misconception that devlogs would only
 appeal to other developers, but I don't agree with this. A devlog can appeal to
 whomever it should appeal. Nothing prevents you from targeting a "normal" viewer
 with high level devlogs. A demand comparable to all the crafting, building and
 engineering channels, just about game development instead, likely exists. Heck,
 I once watched a video about some dudes forging a sword. People just like
-watching experienced people creating things. 
+watching experienced people creating things, at least from a high level
+perspective, avoiding potentially boring technical details.
 
 That said, it requires naivety to think that I could succeed on YouTube or in game
 development, when splitting my focus between them, given the competitive nature
@@ -54,14 +55,14 @@ games, which leaves not enough room for another bottomless time-sink.
 
 It reminded me of the wisdom of everyone's favorite human grumpy cat:
 
-![A quote of Ron Swanson from the show Parks and Recreation.
-'Never half-ass two things, whole-ass one thing'.](./ronswanson.jpg)
+![A quote of Ron Swanson from the show Parks and Recreation. 'Never half-ass two
+things, whole-ass one thing'.](./ronswanson.jpg)
 
 It makes no sense for me to do YouTube for any reason that requires many views,
 because it highly correlates with the amount of time I have to put in, time that
 I would rather directly put into the game. Maybe once my games become
 profitable, I might consider spreading out, when I reach a state where I could
-hire someone to do this for me, but I remain kinda doubtful about this.
+hire someone to do this for me, but I remain somewhat doubtful about this.
 
 At least for now, it makes more sense to make my game as good as possible, to
 increase the odds of proper influencers picking it up. Even if I could magically
@@ -73,12 +74,12 @@ thousand subscribers myself. Although the audience of my own channel might
 display greater loyalty and convert better, one big influencer picking up my
 game could create a snowball effect, leading to even more exposure.
 
-This realization comes with a liberation: If I don't need views, I don't have to
-please the almighty, ever-changing algorithm. I can focus solely on the content,
-without any padding for mid-roll ads, spending dozens of hours on overly edited
-videos to increase retention, resorting to clickbait or selling out to sponsors.
-I can also talk about whatever I want, without having to appeal to a broad
-audience.
+This realization comes with a sense of liberation: If I don't need views, I
+don't have to please the almighty, ever-changing algorithm. I can focus solely
+on the content, without any padding for mid-roll ads, spending dozens of hours
+on overly edited videos to increase retention, resorting to clickbait or selling
+out to sponsors. I can also talk about whatever I want, without having to appeal
+to a broad audience.
 
 ### Doing YouTube As A Hobby
 
@@ -111,13 +112,13 @@ thoughts. I already write down all my thoughts in local Markdown documents, but
 YouTube videos could turn them into something more organized. Audio and visuals
 can enrich the content as well.
 
-Presenting a topic to someone else makes sure that you understand the topic in
+Presenting a topic to someone else ensures that you understand the topic in
 the first place. If my topic covers my personal thoughts and opinions, YouTube
 becomes a great tool to reflect on them, and I might even gain new insights from
 this process. For example, helping me decide whether creating YouTube
 devlogs make sense for me ;)
 
-Documenting the journey of me trying to make my own game allows me to
+Documenting the journey of my attempt to make my own game allows me to
 essentially travel back in time later. I can remind myself of why and how I
 decided to do certain things, get into the headspace at the time and to keep
 track of the challenges and solutions along the way.
@@ -125,9 +126,9 @@ track of the challenges and solutions along the way.
 ### Opportunities Through YouTube
 
 YouTube can also help to open up many opportunities. You can connect with your
-fellow content creators, or even collaborate with them. Your viewers might also
-want to support you, either by contributing to the projects in different ways,
-or by supporting you financially via Patreon.
+fellow content creators or even collaborate with them. Your viewers might also
+want to support you, either by contributing to the projects in different ways or
+by supporting you financially via Patreon.
 
 Even with a low subscriber count, a loyal following can provide early feedback
 on a demo, or help to reach the 10-reviews threshold on Steam to get a rating, which
@@ -144,8 +145,8 @@ might even turn into a full interview.
 
 To fully realize whether YouTube makes sense for me, I must also take a look at
 the reasons against it. As mentioned above, time does not really concern me,
-since I don't aim to get any views, I can invest as little time as I want.
-Talking directly into the camera with minimal editing appears as the current
+since I don't aim to get many views, I can invest as little time as I want.
+Talking directly to the camera with minimal editing appears as the current
 trend among developers who release their own games consistently and treat
 YouTube as a hobby. Managing this with 1-2 hours a week feels achievable.
 
@@ -156,8 +157,8 @@ This also applies to YouTube, where not just my channel, but the whole platform
 could disappear overnight.
 
 This poses less of a problem for preservation, as I would probably create
-backups for my videos, but the loss of subscribers would hurt a lot.
-Years of work cultivating a following that would just evaporate.
+backups for my videos, but the loss of subscribers would hurt me. Years of work
+cultivating a following that would just evaporate.
 
 You can see this on Twitter: Many people tried to move to alternatives like
 Mastodon or Bluesky, but only ended up with a fraction of the original engagement.
@@ -169,7 +170,7 @@ and format guidelines.
 
 Basic human psychology makes us repeat things that get positive feedback, and
 avoid the things that bring us negative feedback. This means that YouTube could
-easily bleed into the creation of the videos and even my games.
+easily influence the creation of the videos and even my games.
 
 Polished visuals will result in better views than placeholder programmer art,
 but the natural order in game development defers polishing for as long as
@@ -182,7 +183,7 @@ talking about how I refactored my code. I might even end up focusing on shipping
 features instead of writing maintainable code, just to get the content for the
 video out on time.
 
-YouTube's algorithm hates technical niche content. A video about how I quit my
+YouTube's algorithm disfavors technical niche content. A video about how I quit my
 life as a vegan butcher to become a C++ programmer would get way more views than
 a video on how to implement the Sutherland-Hodgman algorithm.
 
@@ -209,7 +210,7 @@ which makes it unsuitable for quick edits.
 This means that factual errors would keep spreading. It also means I can't
 update the content with new data, let's say adding the first week's sales data
 to the postmortem of my game. Maybe a few viewers add great points that I would
-want to highlight in the video, etc.
+want to highlight in the video as an addendum, etc.
 
 This also affects educational videos the most: Instead of updating the video
 when a programming library API changes, I would need to upload an entirely new
@@ -242,13 +243,10 @@ cartoon, leaking anything too private or flashing my bum live on stream.
 Having barely any experience with streaming contributed probably to this a lot,
 and routine and familiarity might avoid this somewhat.
 
-One potential solution could involve limiting streaming time and completing the
-majority of the work off-stream.
-
 ### Blogging
 
 Honestly, blogging didn't cross my mind at all at first. Blogging as a whole
-seem not nearly as popular anymore, compared to 10-20 years ago.
+seems not nearly as popular anymore, compared to 10-20 years ago.
 
 When I visited [r/NewTubers](https://www.reddit.com/r/NewTubers/), to read
 up on the whole How-To YouTube stuff, one post in particular stood out to me:
@@ -258,7 +256,7 @@ by Chris Zukowski, who has one of the most popular game development blogs: [How
 To Market A Game](https://howtomarketagame.com/), where he talks about the
 marketing side of indie game development.
 
-While he aims his advice towards people who struggle with YouTube for years,
+While he aims his advice towards people who struggled with YouTube for years,
 encouraging them to give blogging a try, it got me thinking: My reasons
 for doing YouTube also apply to a classic blog. Blogs also don't have any of the
 mentioned drawbacks, unless I pick any of the proprietary blogging platforms.
@@ -279,24 +277,107 @@ a lot of noise.
 
 ![My little noisy cockatiel sitting on my finger](./pitti.webp)
 
-YouTube offers reach, and the ability to bring organic traffic through the
-algorithm. Since I don't really care about massive viewer counts,
-YouTube loses its biggest strength as a platform for me.
+Another advantage comes from the fact that only a small part of game developers
+seem to blog. While a large part of the audience moved towards video content, I
+reckon that the demand for written articles still exists. In fact, I prefer
+consuming written content over videos, as it allows for easier skimming,
+extracting and copying of relevant information.
 
-That said, blogs kinda sit on the opposite end and have basically almost no
-discoverability. Readers have to go out of their week to actively seek out the
-content. No "front page" or recommendations will guide them to my content.
+## YouTube vs Blogging
+
+I established that I want to log, but should I do YouTube or traditional
+blogging? Maybe even a hybrid approach to get the best of both worlds?
+
+YouTube offers reach, and the ability to bring organic traffic through the
+algorithm.
+
+Blogs kinda sit on the opposite end and have basically almost no
+discoverability. Readers have to go out of their way to actively seek out the
+content. No "front page" or recommendations will guide them to me.
+Well, unless I write on a third party blogging platform, but YouTube would still
+have orders of magnitudes more viewers.
 
 I mentioned that a large follower count does not matter to me, but writing posts
-that no one will read, nullifies some of the advantages. A blog requires some
+that no one will read, nullifies some of my goals. A blog requires some
 extra effort to bring new readers to it, for example by using other social
-media, including YouTube, which I might look into for some future quality or
-milestone posts, for example, a post mortem for my games.
+media, including YouTube. Many bloggers go for a hybrid approach, where they
+publish supplementary YouTube videos for their blog posts.
+
+Text also feels less personal compared to a video because personality often
+takes center stage on YouTube, especially in vlogs. While this dynamic does not
+inherently create a problem, a less personal approach offers an added layer of
+protection, not just in real-life, but also for my mental health. I can detach
+myself from criticism of my content, but receiving judgments about personal
+traits, such as appearance, voice, or style could impact my mental well-being,
+especially when it just piles up. This also creates a bias towards
+agreeableness. A contrarian opinion can often cause heated arguments, where
+people become quick to throw around ad hominems. This can still happen on a
+blog, especially when it allows users to comment, but to a much lesser extent.
+
+With a blog, I also maintain the freedom to just nuke everything and start fresh
+without leaving a trace to my previous attempts, while it takes only a single
+viewer of my failed vlog to expose my previous identity. I don't plan on doing
+this, but it feels reassuring that this nuclear option exists. I can just voice
+what comes to my mind, and if the heat gets too much, I can "reset" it.
+
+This allows YouTubers to create a more personal connection with their audience,
+even if it remains mainly a one-sided, parasocial one. This comes with
+trade-offs: The audience often demonstrates strong loyalty and a willingness to
+go out of their way to support their favorite creators, some even going so far
+that it might share the same characteristics of a little cult. It also means
+that it doesn't take much to turn their feelings into something destructive,
+because they take this relationship too seriously. This dynamic can not only
+cause the cultivation of yes-men who will create echo chambers and can lead to
+poor decision making, but also can cause all kinds of drama. You can often see
+someone disagreeing with the content creators point in the comments, providing a
+valid and constructive argument, just to get buried in a stream of followers
+jumping in to "defend" their favorite YouTuber.
+
+As mentioned in the beginning, YouTube comes with a flexibility, that allows it
+to take any desired shape. Nothing would prevent me from hiding my face, and use
+AI voices. The possibility for text-only videos exists as well. In that case, I
+don't see any value over a traditional blog, though.
+
+The final consideration lies in the enjoyment of the content creation for the
+chosen medium. Do I enjoy writing or video editing? Thinking about that 17-hours
+in the making video, I can confidently say that while I enjoy thinking about
+titles and creating thumbnails, I loath actual video editing. I also kept
+putting off recording as well, because it feels like a drag. Setting up the lights,
+trying to set up an environment where I can record without any distractions,
+potentially take a fresh shower to not look like a mess, and all the other
+things, become just hurdles.
 
 ## Conclusion
+
+I would like to conclude this post with a thought experiment: Let's imagine I
+would beat the odds and my games became successful. Would I still want to share
+my progress and thoughts? I can confidently say that I would, just to still my
+urge to share my stuff and sort out my thoughts.
+
+Thinking about an alternative timeline where my games fail, but the devlogs
+for either medium gained traction, and with that I mean something like 10k
+followers, or netting me $1000 a month, would I still ask myself if I wanted to
+do the other medium?
+
+If I did YouTube and it gained traction, I would definitely say yes, I would
+still think about blogging. Partly because of the ownership reasons, so my blog
+could grow slowly over time, but also because the low barrier for creating and
+updating posts. Even with a successful YouTube I would probably refer to a blog
+post to share my sales data, because I could constantly update it when desired.
+
+With a successful Blog, I don't think I would care about YouTube at all, aside
+from a handy way to upload and share videos files that I would embed into my
+blog, or trailers for my game. But I might as well self-host them, or use any
+other hosting platform. Using YouTube for vlogs, would just create extra work,
+for no benefits.
+
+I don't aim to make money with my devlogs, but following this line of thought
+makes me realize that the things that make me gravitate towards YouTube fall
+purely into external motivators, like "fame" and money, not the creation of the
+content itself. As it stands, I feel like I enjoy the idea of becoming a
+YouTuber, but not the actual craft.
 
 Turns out that no compelling reasons push me to use YouTube, as a simple blog
 can achieve the same goals, while offering some advantages. Owning the platform
 fully, avoiding the trap of status-seeking, and maintaining complete flexibility
 and independence, provide strong incentives.
-
