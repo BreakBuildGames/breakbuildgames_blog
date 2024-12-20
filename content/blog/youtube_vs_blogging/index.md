@@ -5,7 +5,7 @@ YouTube as a game developer feels like a trap. \
 Is it worth it for me, or just a waste of time?\
 """
 date = 2024-10-30
-updated = 2024-12-19
+updated = 2024-12-20
 draft = false
 
 [taxonomies]
@@ -200,6 +200,19 @@ weeks](https://sullygnome.com/channel/genusnymphicus/365), I realized that I
 still occasionally took a peek in a moment of weakness. YouTube gets even more
 in-your-face with the metrics, and places them all over the creator dashboard.
 
+YouTube actually feels like an analytics trap, even when consuming content.
+Before I watch a video, I look at the view count and subscribers. These metrics
+give a false sense of authority. Given 2 tutorial videos, the one with a 100k
+views will appear as more legit than the one with just 100. 
+
+I keep telling myself that I don't care about the monetary aspects of devlogs,
+but I often use [Socialblade](https://socialblade.com/) to see their view count
+over the past months and check whether the channels have a Patreon, to estimate
+their earnings. I often can catch myself thinking "This channel makes $X with
+only Y views! Hey, I could to that!". This line of thinking  ignores the years
+of growth to reach that point, the opportunity costs, and won't get me closer to
+releasing my games.
+
 ### Immutability Of Videos
 
 Once you upload a video, you can't change it anymore. Well, in theory you could
@@ -377,7 +390,9 @@ purely into external motivators, like "fame" and money, not the creation of the
 content itself. As it stands, I feel like I enjoy the idea of becoming a
 YouTuber, but not the actual craft.
 
+
 Turns out that no compelling reasons push me to use YouTube, as a simple blog
 can achieve the same goals, while offering some advantages. Owning the platform
 fully, avoiding the trap of status-seeking, and maintaining complete flexibility
 and independence, provide strong incentives.
+
