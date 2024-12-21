@@ -384,11 +384,10 @@ blog, or trailers for my game. But I might as well self-host them, or use any
 other hosting platform. Using YouTube for vlogs, would just create extra work,
 for no benefits.
 
-I don't aim to make money with my devlogs, but following this line of thought
-makes me realize that the things that make me gravitate towards YouTube fall
-purely into external motivators, like "fame" and money, not the creation of the
-content itself. As it stands, I feel like I enjoy the idea of becoming a
-YouTuber, but not the actual craft.
+Following this line of thought makes me realize that the things that make me
+gravitate towards YouTube fall purely into external motivators, like "fame" and
+money, not the creation of the content itself. As it stands, I feel like I enjoy
+the idea of becoming a YouTuber, but not the actual craft.
 
 
 Turns out that no compelling reasons push me to use YouTube, as a simple blog
