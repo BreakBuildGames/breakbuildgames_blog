@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://breakbuild.games/sitemap_style.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://breakbuild.games/</loc>
+    </url>
+    <url>
+        <loc>https://breakbuild.games/blog/</loc>
+    </url>
+    <url>
+        <loc>https://breakbuild.games/blog/my-year-with-rust/</loc>
+        <lastmod>2022-12-15</lastmod>
+    </url>
+    <url>
+        <loc>https://breakbuild.games/blog/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://breakbuild.games/blog/youtube-vs-blogging/</loc>
+        <lastmod>2024-12-20</lastmod>
+    </url>
+    <url>
+        <loc>https://breakbuild.games/projects/</loc>
+    </url>
+    <url>
+        <loc>https://breakbuild.games/tags/</loc>
+    </url>
+    <url>
+        <loc>https://breakbuild.games/tags/blog/</loc>
+    </url>
+    <url>
+        <loc>https://breakbuild.games/tags/business/</loc>
+    </url>
+    <url>
+        <loc>https://breakbuild.games/tags/rust/</loc>
+    </url>
+</urlset>
